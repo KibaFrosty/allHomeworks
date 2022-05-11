@@ -1,0 +1,14 @@
+li 1
+#main .item 110
+h1 + *[href="test"] 11
+#test p 101
+li.item.main 21
+#test 100
+ul ol li.item 13
+ul li 2
+#test:not(.main) 101
+ul ol+li 3
+a:hover 11
+p:first-line 2
+h2 strong 2
+span.test ul li 13

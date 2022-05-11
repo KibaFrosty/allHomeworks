@@ -1,0 +1,49 @@
+@import url('main.css');
+
+h1 {
+    color: black;
+  }
+  
+  h2 {
+    color:rgb(39, 167, 77);
+  }
+  
+  .main {
+    color: rgb(39, 167, 77);
+  }
+  
+  .text1 {
+    color: rgb(60, 153, 153);
+  }
+  
+  .text2 {
+    color: rgb(175, 29, 126);
+  }
+  
+  .text3 {
+    color: rgb(4, 221, 236);
+  }
+  
+  .text4 {
+    color: rgb(209, 14, 167);
+  }
+  
+  .text5 {
+    color: rgb(99, 135, 236);
+  }
+  
+  .text6 {
+    color: rgb(46, 76, 177);
+  }
+  
+  .time {
+    color: rgb(226, 117, 117);
+  }
+  
+  .Price {
+    color: rgba(14, 218, 233, 0.911)
+  }
+  
+  .App {
+    color: rgb(88, 161, 230);
+  }

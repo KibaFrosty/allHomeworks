@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Text Template</title>
+</head>
+<body>
+  
+<!-- 
+  Headings
+  - теги заголовков
+    так же они обладают семантическим отличием.
+
+  h1 - носит самый высокий логический смысл
+  h6 - самы низкий логический уровень
+-->
+<h1>Headings</h1>
+<h2>Headings</h2>
+<h3>Headings</h3>
+<h4>Headings</h4>
+<h5>Headings</h5>
+<h6>Headings</h6>
+
+<hr>
+
+<!-- 
+  Paragraph 
+  - в этот тег оборачиваются просто большие куски текста (параграфы)
+
+  + в них есть атрибут align (но лучше использовать CSS)
+-->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, iure.</p>
+<p align="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, iure.</p>
+<hr>
+<br>
+
+<!-- 
+  Address
+  - информация об авторе, например. 
+
+  Quote 
+  - тег q - цитата. 
+
+  Blockquote
+  - данный тег предназначен для очень больших цитат
+-->
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, ducimus!</p>
+<address>Eugeni Bykovski</address>
+
+<hr>
+
+<q>
+  Lorem ipsum dolor sit amet consectetur
+</q>
+<address>Eugeni Bykovski</address>
+
+<hr>
+
+<blockquote>
+  <p>
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, rerum voluptas? 
+    Fuga corporis temporibus voluptate vero odit impedit autem numquam eaque sit, 
+    nulla soluta illum laudantium repellendus voluptates doloribus quibusdam 
+    cupiditate veniam velit. Eum cupiditate ullam nobis nam repudiandae labore 
+    sed corporis enim ipsam, suscipit ipsum? Nam voluptate ipsum laborum."
+  </p>
+</blockquote>
+
+<hr>
+
+<!-- 
+  Time
+  - данные теги используются для обозначения времени
+  время может быть указано как и внутри теги, так и в атрибуте datetime (сама дата в этом случае не отображается)
+-->
+<time>1989-01-26</time>
+<br>
+<time datetime="1989-01-26">My date</time>
+
+<hr>
+
+<!-- 
+  Bold / Italic / Typing / Deleted / Code text
+-->
+<b>Bold text</b>
+<br>
+
+<i>Italic text</i>
+<br>
+
+<tt>Typing text</tt>
+<br>
+
+<s>Deleted text</s>
+<br>
+
+<code>
+  const arg = { name: 'Eugeni', age: 27 }
+</code>
+<br>
+
+<pre>
+  <code>
+    const arg = { name: 'Eugeni', age: 27 }
+  </code>
+</pre>
+
+<hr>
+
+<!-- 
+  Bold / Italic / Small / Big / Del / Ins text with semantic accent
+-->  
+<strong>Bold</strong>
+<br>
+
+<em>Italic</em>
+<br>
+
+<small>Small</small>
+<br>
+
+<big>Big</big>
+<br>
+
+<del>Deleted</del>
+<br>
+
+<ins>Inserted</ins>
+<br>
+
+<hr>
+
+<!-- 
+  Subscripted / Superscripted text
+-->  
+<h4>
+  H <sub>2</sub> O
+</h4>
+
+<h4>
+  X <sup>2</sup>  = 9
+</h4>
+
+<hr>
+
+</body>
+</html>

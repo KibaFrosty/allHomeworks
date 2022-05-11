@@ -1,0 +1,261 @@
+@import url('main.css');
+
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+header {
+  background: rgb(255, 40, 255);
+}
+
+header > ul {
+  list-style: none;
+  margin: 0px;
+  padding: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul div > li {
+  display: inline-block;
+  padding-right: 70px;
+}
+
+.text1 {
+  background-color: rgba(0, 240, 72, 0.719);
+  border: 3px solid blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+main {
+  background: rgba(35, 204, 255, 0.678);
+  }
+  
+h2 {
+  color: white;
+  padding-left: 50px;
+}
+
+.cards {
+background-color: rgba(51, 255, 112, 0.719);
+padding-top: 30px;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+.text2 {
+  display: inline-block;
+  width:250px;
+  height: 400px;
+  background-color: green;
+  border: 3px solid white;
+  padding: 40px;
+  margin: 70px;
+  text-align: center;
+}
+
+
+.text3 {
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  background-color: red;
+  border: 3px solid white;
+  padding: 40px;
+  margin: 70px;
+  text-align: center;
+}
+
+.text4 {
+    color: rgb(22, 65, 255);
+  }
+
+  .text2:hover {
+    background-color: yellow;
+  }
+  
+  .text3:hover {
+      background-color: aqua;
+  }
+
+.section3 {
+  background-color: pink;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  }
+
+ul > li {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  border: 3px solid white;
+  padding: 50px;
+  margin: 50px;
+}
+
+.section3 ul > li:nth-child(2) {
+  border: 3px solid #ff45c1d3;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section3 ul > li:nth-child(4) {
+  border: 3px solid #ff2222d3;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.links {
+  background-color: rgba(255, 66, 66, 0.973);
+  padding-top: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  }
+
+  h3{
+    color: rgb(86, 255, 35);
+    padding-left: 70px;
+  }
+
+  h1::first-letter {
+  font-size: 50px;
+  color: white;
+  padding-left: 70px;
+  }
+
+  h3::after {
+    content: ' This is AFTER element';
+    color: white;
+  }
+
+  h3::before {
+    content: 'This is BEFORE element: ';
+    color: white;
+  }
+
+  h4{
+    color: rgb(86,255, 35);
+    padding-left: 70px;
+  }
+
+h4::first-letter {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.section4 {
+  background-color: rgba(86,255, 35);
+  padding-top: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-bottom: 40px;
+}
+
+.text5 {
+  background-color: rgb(29, 101, 255);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.section4 .text5 > li {
+  list-style: none;
+  border: 3px solid white;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+.section5 {
+  background-color: rgba(55, 88, 58, 0.973);
+  padding-top: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-bottom: 40px;
+}
+
+.text6 {
+  background-color: rgba(85, 229, 255, 0.973);
+  padding-top: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.section5 .text6 > li {
+  list-style: none;
+  border: 3px solid white;
+  text-align: center;
+  color: rgb(238, 108, 255);
+  padding: 20px;
+  font-size: 30px;
+}
+
+footer {
+  background: rgb(247, 173, 218);
+}
+
+footer > ul {
+  list-style: none;
+  margin: 0px;
+  padding: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+a:focus {
+  font-weight: bolder;
+}
+
+a::selection {
+  background-color: rgb(2, 4, 90);
+  color: white;
+}
+
+#link2 {
+  color: white;
+}
+
+#link2:hover {
+  color: rgb(0, 255, 42);
+  text-decoration: none;
+}
+
+#link3 {
+  color: rgb(238, 108, 255);
+}
+
+#link3:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#text7 {
+  font-size: 20px;
+}
+
+.App {color: aqua;}
