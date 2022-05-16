@@ -1,0 +1,16 @@
+h1 {
+    position: fixed;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: darkgoldenrod;
+    height: 80px;
+    width: 100%;
+    color: white;
+}
+
+p {
+    margin: 100px;
+    padding: 100px;
+    
+    border: 3px solid #8652ff;
+}
