@@ -1,0 +1,160 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(13, [col] 1fr);
+    grid-template-rows: repeat(4, [row] 1fr);
+    grid-gap: 1rem;
+  
+    border: 1px solid rgb(110, 40, 175);
+  }
+  
+  .item {
+    min-height: 80px;
+    border: 1px solid rgb(110, 40, 175);
+  }
+  
+  .it1 {
+    grid-column: col 1 / col 3;
+    grid-row: row 1 / row 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/I5xVNHHOPIg.jpg);
+  }
+  
+  .it2 {
+    grid-column: col 3 / col 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/7ruJdGkqv4I.jpg);
+  }
+  
+  .it3 {
+    grid-column: col 4 / col 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/8abd71fe51652adad99001ba7c40f83f.png);
+  }
+  
+  .it4 {
+    grid-column: col 5 / col 6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/aCv8m79kJxQ.jpg);
+  }
+  
+  .it5 {
+    grid-column: col 6 / col 10;
+    grid-row: row 1 / row 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/afCg5-zIft0.jpg);
+  } 
+
+  .it6 {
+    grid-column: col 10 / col 12;
+    grid-row: row 1 / row 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/afXoOrh9-eUDfnfvBslpn66cpqRvaj0gZ5-ULjmE5QrqlbCr4Sd_4mNysaoSD5L-qZKgTaRl0P4HfjYYhC4gehc0.jpg);
+  } 
+
+  .it7 {
+    grid-column: col 12 / col 13;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/B3Xq9jtoHj01MFxtbsQpqnPCgCPKd7C4955FPtjk5a-ab2IFzSZmIw3-ziB7K8A6b9NVi3g5MoWsIIjmnnhlFhWp.jpg);
+  } 
+
+  .it8 {
+    grid-column: col 13 / col 14;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/Ergo_Proxy_anime_anime_girls_anime_vectors_Re_l_Mayer-192118.jpg);
+  }
+  
+  .it9 {
+    grid-column: col 12 / col 13;
+    grid-row: row 2 / row 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/EutqJrlyoSs.jpg);
+  } 
+
+  .it10 {
+    grid-column: col 13 / col 14;
+    grid-row: row 2 / row 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/Fdd-CzGH0s4.jpg);
+  } 
+
+  .it11 {
+    grid-column: col 3 / col 4;
+    grid-row: row 2 / row 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/GqTsf68li2Y.jpg);
+  } 
+
+  .it12 {
+    grid-column: col 4 / col 6;
+    grid-row: row 2 / row 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/MVUHriRz4s8.jpg);
+  } 
+
+  .it13 {
+    grid-column: col 1 / col 2;
+    grid-row: row 3 / row 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/Yc_ixQh_6go.jpg);
+  } 
+
+  .it14 {
+    grid-column: col 1 / col 2;
+    grid-row: row 4 / row 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/ruuxa7p_xyM.jpg);
+  } 
+
+  .it15 {
+    grid-column: col 2 / col 4;
+    grid-row: row 3 / row 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/S1YnWioaZqY.jpg);
+  } 
+
+  .it16 {
+    grid-column: col 4 / col 5;
+    grid-row: row 4 / row 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/thumb-218543.png);
+  } 
+
+  .it17 {
+    grid-column: col 5 / col 6;
+    grid-row: row 4 / row 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/xp_qAVZodgGppcJ9kQtCBxwngsr9mBZGyb2v1R0qDcE8hVvBGnfDY7vM_i-JNjZ2YHwLixIhjIgJmoqYBYWIBiSZ.jpg);
+  } 
+
+  .it18 {
+    grid-column: col 10 / col 12;
+    grid-row: row 3 / row 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/ZzF4f1-9W0s.jpg);
+  } 
+
+  .it19 {
+    grid-column: col 12 / col 14;
+    grid-row: row 3 / row 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/2jI65ZtvF8I.jpg);
+  } 

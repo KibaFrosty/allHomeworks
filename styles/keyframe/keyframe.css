@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0; 
+}
+
+.sunset {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(359deg, #e4b0d7 26.11%, #2ec4ff 94%);
+    animation-name: sunset-animation;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    
+    animation-fill-mode: forwards;
+}
+
+.grass {
+    position: absolute;
+    height: 172px;
+    width: 100%;
+    background-image: url(../../img/vegetation-5171420.svg);
+    bottom: 0;
+}
+
+.sun {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: #eff866;
+    box-shadow: 0 0 150px #eff866;
+    
+    animation-name: sun-animation;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sun-animation {
+    0% {
+        bottom: 3%;
+        left: 2%;
+    }
+
+    5% {
+        bottom: 5%;
+        left: 5%;
+    }
+
+    10% {
+        bottom: 10%;
+        left: 10%;
+    }
+
+    15% {
+        bottom: 15%;
+        left: 15%;
+    }
+
+    20% {
+        bottom: 20%;
+        left: 20%;
+    }
+
+    25% {
+        bottom: 25%;
+        left: 25%;
+    }
+
+    30% {
+        bottom: 30%;
+        left: 30%;
+    }
+
+    35% {
+        bottom: 35%;
+        left: 35%;
+    }
+
+    40% {
+        bottom: 40%;
+        left: 40%;
+    }
+
+    45% {
+        bottom: 45%;
+        left: 45%;
+    }
+
+
+    50% {
+        bottom: 50%;
+        left: 50%;
+    }
+
+    55% {
+        bottom: 45%;
+        left: 55%;
+    }
+
+    60% {
+        bottom: 40%;
+        left: 60%;
+    }
+
+    65% {
+        bottom: 35%;
+        left: 65%;
+    }
+
+    70% {
+        bottom: 30%;
+        left: 70%;
+    }
+
+    75% {
+        bottom: 25%;
+        left: 75%;
+    }
+
+    80% {
+        bottom: 20%;
+        left: 80%;
+    }
+
+    85% {
+        bottom: 15%;
+        left: 85%;
+    }
+
+    90% {
+        bottom: 10%;
+        left: 90%;
+    }
+
+    95% {
+        bottom: 5%;
+        left: 95%;
+    }
+
+    100% {
+        left: 98%;
+        bottom: 2%;
+    }
+  }
+
+
+@keyframes sunset-animation {
+  
+    50% {
+        background: linear-gradient(359deg, #adf3ff 26.11%, #239ac9 94%);
+    }
+  
+    100% {
+        background: linear-gradient(359deg, #ff6666 26.11%, #aa5fff 94%);
+    }
+  }
